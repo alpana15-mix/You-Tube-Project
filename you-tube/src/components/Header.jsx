@@ -7,7 +7,7 @@ import { IoMdMic } from "react-icons/io";
 import { RiVideoAddFill } from "react-icons/ri";
 import { IoIosNotifications } from "react-icons/io";
 
-export default function Header(){
+export default function Header({nav,navbar}){
     const [userPic, setUserPic]=useState("https://i.pinimg.com/236x/5a/bd/98/5abd985735a8fd4adcb0e795de6a1005.jpg")
 
 const [model, setModel] =useState(false);
@@ -15,18 +15,22 @@ const [model, setModel] =useState(false);
 function handleClickmodel(){
     setModel(prev=>!prev);
 }
+
+function hambgur(){
+nav(!navbar)
+}
 return(
 <div className="h-14 box-border px-4 py-2 flex items-center w-full justify-between fixed top-0 bg-black z-10">
     <div className="flex gap-2.5 justify-center items-center w-fit">
 
-<div className="w-10 h-10 flex justify-center items-center cursor-pointer">
+<div onClick={hambgur} className="w-10 h-10 flex justify-center items-center cursor-pointer">
 
 <GiHamburgerMenu className="text-white text-2xl"/>
 </div>
 <div className="flex justify-center items-center cursor-pointer no-underline">
     <BsYoutube className="text-3xl text-red-700"/>
     <div className="text-white text-[20px] tracking-normal font-normal font-Lilita One sans-serif">You
-        <span className="text-red-700">Tube</span><sup className="text-white text-[12px]">NL</sup></div>
+        <span className="text-red-700">Tube</span><sup className="text-white text-[10px]">IN</sup></div>
 </div>
     </div>
 {/*-----------------------Middle Part--------------------------*/}
