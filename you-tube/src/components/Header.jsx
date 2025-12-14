@@ -20,7 +20,7 @@ function hambgur(){
 nav(!navbar)
 }
 return(
-<div className="h-14 box-border px-4 py-2 flex items-center w-full justify-between fixed top-0 bg-black z-10">
+<div className="h-15 box-border px-4 py-2 flex items-center w-full justify-between fixed top-0 bg-black z-10">
     <div className="flex gap-2.5 justify-center items-center w-fit">
 
 <div onClick={hambgur} className="w-10 h-10 flex justify-center items-center cursor-pointer">
@@ -28,7 +28,7 @@ return(
 <GiHamburgerMenu className="text-white text-2xl"/>
 </div>
 <div className="flex justify-center items-center cursor-pointer no-underline">
-    <BsYoutube className="text-3xl text-red-700"/>
+    <BsYoutube className="text-2xl text-red-700"/>
     <div className="text-white text-[20px] tracking-normal font-normal font-Lilita One sans-serif">You
         <span className="text-red-700">Tube</span><sup className="text-white text-[10px]">IN</sup></div>
 </div>
