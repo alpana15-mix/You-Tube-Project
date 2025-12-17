@@ -9,9 +9,10 @@ import { MdOutlineOndemandVideo } from "react-icons/md";
 import { MdOutlineWatchLater } from "react-icons/md";
 import { SlLike } from "react-icons/sl";
 import { MdContentCut } from "react-icons/md";
+import '../index.css' 
 export default function Sidebar({navbar}){
     return(
-       <>{navbar? <div className="flex flex-col grow box-border h-[92vh] overflow-y-auto fixed top-[55px] left-0 w-[260px] p-3.5 bg-black text-white"
+       <>{navbar? <div className="sidebar flex flex-col grow box-border h-[92vh] overflow-y-auto fixed top-[55px] left-0 w-[260px] p-3.5 bg-black text-white"
             >
             {/*First container*/}
             <div className="flex flex-col border-b border-[#7e5959] pb-2.5">
@@ -117,7 +118,7 @@ export default function Sidebar({navbar}){
  <div className="flex flex-col grow box-border h-[92vh] overflow-y-auto fixed top-[55px] left-0 w-[90px] p-3.5 bg-black text-white"
             >
             {/*First container*/}
-            <div className="flex flex-col border-b border-[#7e5959] pb-2.5">
+            <div className="sidebar flex flex-col border-b border-[#7e5959] pb-2.5">
                 <div className="flex gap-5 items-center py-[9px] px-2.5 rounded-[15px] cursor-pointer hover:bg-[#232323] transition-colors duration-200">
                     <AiFillHome className="text-2xl" />
                     

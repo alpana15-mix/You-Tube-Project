@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header'
 import Home from './pages/Home'
+import './index.css' 
 
 
 function App() {

@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+.App{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sidebar::-webkit-scrollbar{
+    width: 12px;
+}
+.nav::-webkit-scrollbar{
+    width: 12px;
+}
