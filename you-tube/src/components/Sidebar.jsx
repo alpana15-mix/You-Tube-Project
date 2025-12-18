@@ -12,7 +12,7 @@ import { MdContentCut } from "react-icons/md";
 import '../index.css' 
 export default function Sidebar({navbar}){
     return(
-       <>{navbar? <div className="sidebar flex flex-col grow box-border h-[92vh] overflow-y-auto fixed top-[55px] left-0 w-[260px] p-3.5 bg-black text-white"
+       <>{navbar? <div className="sidebar shadow-[4px_0_10px_rgba(0,0,0,0.9)] flex flex-col grow box-border h-[92vh] overflow-y-auto fixed top-[55px] left-0 w-[260px] p-3.5 bg-black text-white"
             >
             {/*First container*/}
             <div className="flex flex-col border-b border-[#7e5959] pb-2.5">
@@ -115,7 +115,7 @@ export default function Sidebar({navbar}){
 
  </div>:
  
- <div className="flex flex-col grow box-border h-[92vh] overflow-y-auto fixed top-[55px] left-0 w-[90px] p-3.5 bg-black text-white"
+ <div className="flex shadow-[4px_0_10px_rgba(0,0,0,0.9)] flex-col grow box-border h-[92vh] overflow-y-auto fixed top-[55px] left-0 w-[90px] p-3.5 bg-black text-white"
             >
             {/*First container*/}
             <div className="sidebar flex flex-col border-b border-[#7e5959] pb-2.5">
