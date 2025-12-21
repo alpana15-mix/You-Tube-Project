@@ -4,7 +4,7 @@ import '../index.css'
 
 export default function Home({navbar}){
 return(
-    <div className="flex w-full px-[13px] pt-2.5 pb-0 box-border">
+    <div className="flex w-full px-0 pt-2.5 pb-0 box-border">
         <Sidebar navbar={navbar}/>
         <HomePage navbar={navbar}/>
     </div>
